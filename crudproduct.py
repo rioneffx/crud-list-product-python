@@ -1,3 +1,70 @@
+"""
+- CRUD = Create Read Update Delete
+- LIST = Penyimpanan Data
+
+Module :
+  texttable
+  - Menampilkan data dalam bentuk tabel
+  > pip install texttable
+
+==================================
+WARUNG ABC - CRUD DATA PRODUK
+
+1. Lihat Semua Data
+2. Lihat Data Berdasarkan ID
+3. Tambah Data
+4. Ubah Data
+5. Hapus Data
+
+0. Keluar
+
+Menu >> 1
+
+==================================
+DATA PRODUK
+
++----+---------+--------------+---------------+
+| No | ID      | Nama         | harga         |
++====+=========+==============+===============+
+|  1 | 1001    | Soto Ayam    | 11000         |
++----+---------+--------------+---------------+
+|  2 | 1002    | Bakso        | 12000         |
++----+---------+--------------+---------------+
+|  3 | 1003    | Mie Ayam     | 10000         |
++----+---------+--------------+---------------+
+
+>> 
+
+==================================
+TAMBAH DATA PRODUK
+
+ID : 1004
+Nama : Bakso Jumbo
+Harga : 15000
+
+Berhasil Menambahkan Data Produk
+>>
+
+==================================
+UBAH DATA PRODUK
+
+ID : 1003
+Nama : Mie Ayam
+Harga : 11000
+
+Berhasil Mengubah Data Produk
+>>
+
+==================================
+HAPUS DATA PRODUK
+
+ID : 1003
+
+Berhasil Menghapus Data Produk
+>>
+  
+"""
+
 from texttable import Texttable
 
 List_Product = []
